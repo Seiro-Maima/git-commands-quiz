@@ -65,7 +65,6 @@ while True:
     print("Incorrect. The answer is:", colored(a4, 'blue'), ". Check for typos!")
  
 # -----------------------------------------------------------------
-
   print("\nEnter command to check what GitHub URL the current repo is connected to")
   
   q5 = input("$ ")
@@ -126,8 +125,8 @@ while True:
     scoreTotal = scoreTotal + 1
   else:
     print("Incorrect. The answer is:", colored(a9, 'blue'), ". Check for typos!")
+    
 # -----------------------------------------------------------------
-
   print("\nYour GitHub site is https://github.com/kingkong/my-cool-code.git")
   print("Enter the command to link to your GitHub repository")
   
@@ -266,7 +265,6 @@ while True:
     print("Incorrect. The answer is:", colored(a20, 'blue'), ". Check for typos!")
 
 # -----------------------------------------------------------------
-
   #Calculate score percentage
   scorePrc = (scoreTotal/20)*100
 
